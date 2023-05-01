@@ -1,4 +1,3 @@
-import React from "react";
 
 const ControlPresupuesto = ({ presupuesto }) => {
   const formatearCantidad = (cantidad) => {
