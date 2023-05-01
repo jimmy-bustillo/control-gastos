@@ -2,9 +2,10 @@ import React from "react";
 
 const ControlPresupuesto = ({ presupuesto }) => {
   const formatearCantidad = (cantidad) => {
-    return cantidad.toLocaleString("en-US", {
+    return cantidad.toLocaleString("es-HN", {
       style: "currency",
-      currency: "HNL",
+      currency:"HNL",
+      currencyDisplay: "symbol",
     });
   };
 
